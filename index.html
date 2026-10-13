@@ -43,7 +43,9 @@
   .eyebrow{
     display:inline-flex;align-items:center;gap:8px;
     font-size:12.5px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;
-    color:var(--navy-600);
+    color:#FFD466;
+    background:linear-gradient(180deg,#FFF3D6 0%,#FFD466 35%,#D9A036 65%,#FFE9A8 100%);
+    -webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;
   }
   .eyebrow::before{content:"";width:7px;height:7px;border-radius:50%;background:radial-gradient(circle at 32% 28%, #FFF3D6 0%, #FFD466 45%, #D9A036 80%, #FFE9A8 100%);flex:none;}
 
@@ -73,7 +75,7 @@
     display:flex;align-items:center;gap:10px;
   }
   .logo-chip img{height:58px;display:block;}
-  .hero-eyebrow{color:#CFE0FF;}
+  .hero-eyebrow{color:#CFE0FF;background:none;-webkit-text-fill-color:#CFE0FF;}
   .hero-eyebrow::before{background:radial-gradient(circle at 32% 28%, #FFF3D6 0%, #FFD466 45%, #D9A036 80%, #FFE9A8 100%);}
   .event-pills{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px;}
   .pill{
@@ -232,8 +234,11 @@
     padding:22px 20px;box-shadow:var(--shadow);
   }
   .about-block h3{
-    font-size:13.5px;color:var(--navy-600);margin:0 0 14px;
+    font-size:13.5px;margin:0 0 14px;
     text-transform:uppercase;letter-spacing:.06em;font-weight:700;font-family:Arial,sans-serif;
+    color:#FFD466;
+    background:linear-gradient(180deg,#FFF3D6 0%,#FFD466 35%,#D9A036 65%,#FFE9A8 100%);
+    -webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;
   }
   .chip-list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:11px;}
   .chip-list li{font-size:14px;color:var(--ink);padding-left:16px;position:relative;line-height:1.4;}
@@ -381,7 +386,7 @@
   <div class="wrap">
     <div class="apply">
       <div>
-        <span class="eyebrow" style="color:#CFE0FF;">Nộp hồ sơ</span>
+        <span class="eyebrow" style="color:#CFE0FF;background:none;-webkit-text-fill-color:#CFE0FF;">Nộp hồ sơ</span>
         <h2>Ứng tuyển ngay — mất chưa đến 3 phút</h2>
         <p>Điền thông tin và đính kèm CV qua form online. Không có CV cũng không sao, đăng ký trước, gửi bổ sung sau.</p>
         <div class="cta-row">
